@@ -1,0 +1,9 @@
+{
+  "name": "FrontEndStarter",
+  "version": "1.0.0",
+  "description": "FrontEndStarter",
+  "dependencies": {
+  	"grunt": "~0.4.1",
+  	"grunt-contrib": "~0.7.0"
+  }
+}

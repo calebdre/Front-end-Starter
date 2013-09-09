@@ -1,0 +1,73 @@
+/*  Syntax quick reference
+ *  ----------------------
+ *  gutter[gut, g] = 1[float between 0 and 1]
+ *  cf() - clearfix
+ *  center(max_width = 1410px)
+ *  column[col](numerator = 1, denominator = 1, number_of_nested_columns = 0)
+ *  span(numerator = 1, denominator = 1)
+ *  offset[off](numerator = 0, denominator = 0, col_or_span = column[col, c, span, s], left_or_right = left[right])
+ *  get(numerator = 1, denominator = 1, col_or_span = column[col, c, span, s])
+ *  bp(w = 705px, mobile_first = false[mf])
+ *  endbp()
+ *  stack(align = center[c, left, l, right, r])
+ *  pxfix()
+ */
+/* line 135, sass/jeet/_framework.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  *behavior: url(js/vendor/boxsizing.htc); }
+
+/* line 139, sass/jeet/_framework.scss */
+html {
+  overflow-y: scroll;
+  overflow-x: hidden; }
+
+/* line 143, sass/jeet/_framework.scss */
+body {
+  *zoom: 1;
+  width: 100%; }
+  /* line 38, ../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  body:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+/* line 147, sass/jeet/_framework.scss */
+img, video, audio, embed, object, input, iframe {
+  max-width: 100%; }
+
+/* line 150, sass/jeet/_framework.scss */
+.placeholder {
+  color: #aaa; }
+
+/**
+* declare your variables here. feel free to make a new file
+**/
+/**
+*Base Styles
+**/
+/* line 11, sass/_base.scss */
+body {
+  font-size: 100%;
+  color: #777777; }
+
+/* line 24, sass/_base.scss */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0; }
+
+/**
+*imports
+**/
+/* line 5, sass/main.scss */
+.go {
+  color: green; }
+
+/* line 8, sass/main.scss */
+.set {
+  color: yellow; }
+
+/* line 11, sass/main.scss */
+.ready {
+  color: blue; }
