@@ -10,9 +10,9 @@ This is a starter kit for a front-end developer. Just clone it and get to work.
 
 ##What to do:
 Here's what to do to get started:
--clone the repo
--start up the terminal and run "npm install"
--after the install, run 'grunt'
--open up '_bass.scss' or 'main.scss'
--open up 'index.html'
--get to work!
+- clone the repo
+- start up the terminal and run "npm install"
+- after the install, run 'grunt'
+- open up '_bass.scss' or 'main.scss'
+- open up 'index.html'
+- get to work!
