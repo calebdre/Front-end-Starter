@@ -21,14 +21,15 @@ module.exports = function(grunt) {
 		            },
 		            options: {
 		                watchTask: true,
-		                // host: "127.0.0.1",
-		                // server: {
-		                // 	baseDir: "./"
-		                // }
+		                host: "127.0.0.1",
+		                server: {
+		                	baseDir: "./"
+		                }
 		     	}
 		},
 	});
-	grunt.loadNpmTasks('grunt-contrib');
+	grunt.loadNpmTasks('grunt-contrib-watch');
+	grunt.loadNpmTasks('grunt-contrib-compass');
 	grunt.loadNpmTasks('grunt-style-injector');
 
 	grunt.registerTask('default', ['styleinjector','watch']);
