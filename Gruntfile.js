@@ -10,22 +10,26 @@ module.exports = function(grunt) {
 			}
 		},
 		watch:{
-			options:{
-				livereload:true
-			},
 			compass:{
 					files:["css/sass/**/*"],
 					tasks: ['compass']
-			},
-			html:{
-				files:['*.html']
-			},
-			js:{
-				files:'js/*.js'
 			}
-		}
+		},
+		styleinjector: {
+		            files: {
+		                src : ['css/*.css', '*.html']
+		            },
+		            options: {
+		                watchTask: true,
+		                // host: "127.0.0.1",
+		                // server: {
+		                // 	baseDir: "./"
+		                // }
+		     	}
+		},
 	});
 	grunt.loadNpmTasks('grunt-contrib');
+	grunt.loadNpmTasks('grunt-style-injector');
 
-	grunt.registerTask('default', ['watch']);
+	grunt.registerTask('default', ['styleinjector','watch']);
 };

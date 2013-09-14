@@ -62,12 +62,12 @@ h1, h2, h3, h4, h5, h6 {
 **/
 /* line 5, sass/main.scss */
 .go {
-  color: green; }
+  color: red; }
 
 /* line 8, sass/main.scss */
 .set {
-  color: yellow; }
+  color: purple; }
 
 /* line 11, sass/main.scss */
 .ready {
-  color: blue; }
+  color: pink; }
