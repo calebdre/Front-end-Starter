@@ -8,11 +8,10 @@ This is a starter kit for a front-end developer. Just clone it and get to work.
 ##### [Sass](http://sass-lang.com)
 ##### [A simple gruntfile to get working with your sass](http://gruntjs.com)
 
-##What to do:
+##Workflow:
 Here's what to do to get started:
 - clone the repo
 - start up the terminal and run "npm install"
-- after the install, run 'grunt'
-- open up '_bass.scss' or 'main.scss'
-- open up 'index.html'
-- get to work!
+- run 'grunt'
+- edit files
+- run 'grunt build' to get a directory ready for production
