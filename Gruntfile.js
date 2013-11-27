@@ -1,47 +1,47 @@
 module.exports = function(grunt) {
 	grunt.initConfig({
-		productionPath: "production/",
-		developmentPath:"src/"
+		production: "production/",
+		develop:"src/",
 
 		compass:{
 			dist:{
 				options:{
-					cssDir: "<%= developmentPath %>css",
-					sassDir: "<%= developmentPath %>css/sass",
-					config:"<%= developmentPath %>css/config.rb"
+					cssDir: "<%= develop %>css",
+					sassDir: "<%= develop %>css/sass",
+					config:"<%= develop %>css/config.rb"
 				}
 			}
 		},
 		watch:{
 			compass:{
-					files:["<%= developmentPath %>css/sass/**/*"],
+					files:["<%= develop %>css/sass/**/*"],
 					tasks: ['compass']
 			}
 		},
 		styleinjector: {
 		            files: {
-		                src : ['<%= developmentPath %>css/*.css', '*.html']
+		                src : ['<%= develop %>css/*.css', '*.html']
 		            },
 		            options: {
 		                watchTask: true,
 		                host: "127.0.0.1",
 		                server: {
-		                	baseDir: "./"
+		                	baseDir: "<%= develop %>"
 		                }
 		     	}
 		},
 		smushit: {
 			build:{
 				expand:true,
-				src:['<%= productionPath %>img/*.{png,jpg}', '<%= productionPath %>img/**/*.{png,jpg}'],
-				dest:'<%= developmentPath %>img'
+				src:['<%= production %>img/*.{png,jpg}', '<%= production %>img/**/*.{png,jpg}'],
+				dest:'<%= develop %>img'
 			}
 		},
 		cssmin: {
 			build: {
 				expand: true,
-				dest:"<%=productionPath%>css/",
-				src: '<%= developmentPath %>css/*.css',
+				dest:"<%=production%>css/",
+				src: '<%= develop %>css/*.css',
 				ext: '.min.css'
 			}
 		},
@@ -49,8 +49,8 @@ module.exports = function(grunt) {
 			build: {
 				files: [{
 					expand:true,
-					src:['<%= developmentPath %>js/*.js', '<%= developmentPath %>js/vendor/*.js'],
-					dest:'<%= productionPath %>js/',
+					src:['<%= develop %>js/*.js', '<%= develop %>js/vendor/*.js'],
+					dest:'<%= production %>js/',
 					ext:'.min.js'
 				}]
 			}
@@ -60,12 +60,12 @@ module.exports = function(grunt) {
 				separator: ';',
 			},
 			js: {
-				src: ['<%= productionPath %>js/vendor/*.js', '<%= productionPath %>js/*.js'],
-				dest: '<%= productionPath %>js/all.min.js',
+				src: ['<%= production %>js/vendor/*.js', '<%= production %>js/*.js'],
+				dest: '<%= production %>js/all.min.js',
 			},
 			css:{
-				src:'<%= productionPath %>css/*.css',
-				dest:'<%= productionPath %>css/all.min.css'
+				src:'<%= production %>css/*.css',
+				dest:'<%= production %>css/all.min.css'
 			}
 		},
 		copy:{
@@ -81,14 +81,14 @@ module.exports = function(grunt) {
 			}
 		},
 		usemin:{
-			html:"<%= productionPath %>*.html",
-			css:"<%= productionPath %>css/all.min.css"
+			html:"<%= production %>*.html",
+			css:"<%= production %>css/all.min.css"
 		},
 		 useminPrepare: {
 		            options: {
-		                dest: '<%= productionPath %>'
+		                dest: '<%= production %>'
 		            },
-		            html: '<%= developmentPath %>*.html'
+		            html: '<%= develop %>*.html'
 		        }
 	});
 	grunt.loadNpmTasks('grunt-contrib-watch');
