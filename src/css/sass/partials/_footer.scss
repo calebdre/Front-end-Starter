@@ -1,0 +1,37 @@
+.main-footer{
+	width:100%;
+	background-color:$secondary-bg-color;
+	margin-top:30px;
+	padding:20px;
+	font-size:.8em;
+
+	.footer-nav{
+		float:left;
+		margin-left:40px;
+		@extend %clear;
+
+		a{
+			display:block;
+			color:$secondary-bg-text;
+			&:hover{
+				color:white;
+			}
+		}
+
+		.header{
+			margin-bottom:20px;
+			color:$secondary-bg-text-hover;
+		}
+
+		&:first-child{
+			margin-left:0;
+		}
+	}
+
+	.copywrite{
+		text-align: center;
+		margin-top:5px;
+		color:$secondary-bg-text;
+		font-size:.75em;
+	}
+}

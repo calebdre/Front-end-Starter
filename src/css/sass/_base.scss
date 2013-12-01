@@ -2,29 +2,39 @@
 /**
 * declare your variables here. feel free to make a new file
 **/
-$base-color: #f1f1f1;
-$default-font-color:#777;
-
+$base-color: #444;
+$base-hover:#888;
+$brand-color:#4AB75C;
+$brand-secondary-color: #51B6E7;
+$secondary-bg-color:#222;
+$secondary-bg-text:#aaa;
+$secondary-bg-text-hover:#eee;
 /**
 *Base Styles
 **/
 body{
-	font-size:100%;
-	color:$default-font-color;
+	font-size:.9em;
+	color:$base-color;
 }
-%clear{
-	&:after{
-		clear: both;
-		display: block;
-		content: " ";
-		height: 0px;
-		visibility: hidden;
-	}
-}
-#{ headings() }{
+#{ headings() }, p, li{
 	margin:0;
+	padding:0;
 }
 
+.wrapper{
+	width: 100%;
+}
+.clear{
+	clear:both;
+}
+.inner-wrapper{
+	width:85%;
+	margin:0 auto;
+	@extend %clear;
+}
+a:hover{
+	text-decoration: none;
+}
 /**
 *imports
 **/

@@ -20,7 +20,7 @@ module.exports = function(grunt) {
 		},
 		styleinjector: {
 		            files: {
-		                src : ['<%= develop %>css/*.css', '*.html']
+		                src : ['<%= develop %>css/*.css', '<%= develop %>*.html']
 		            },
 		            options: {
 		                watchTask: true,
