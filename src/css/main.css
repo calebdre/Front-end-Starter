@@ -663,14 +663,12 @@ a:hover {
     font-size: 2em; }
   /* line 15, sass/partials/_banner.scss */
   .super-banner .btn-brand {
-    background-color: #4AB75C;
-    color: #fff;
-    border: 2px solid #D5CED5; }
-  /* line 20, sass/partials/_banner.scss */
+    background-color: #4ab75c;
+    color: #fff; }
+  /* line 19, sass/partials/_banner.scss */
   .super-banner .btn-brand-secondary {
-    background-color: #222222;
-    color: #000;
-    border: 2px solid #D5CED5; }
+    background-color: #51b6e7;
+    color: #fff; }
 
 /* line 1, sass/partials/_footer.scss */
 .main-footer {

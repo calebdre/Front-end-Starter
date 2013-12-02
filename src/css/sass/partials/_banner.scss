@@ -13,13 +13,11 @@
 		font-size:2em;
 	}
 	.btn-brand{
-		background-color:#4AB75C;
+		background-color:$brand-color;
 		color:#fff;
-		border:2px solid #D5CED5;
 	}
 	.btn-brand-secondary{
-		background-color: $secondary-bg-color;
-		color:#000;
-		border:2px solid #D5CED5;
+		background-color: $brand-secondary-color;
+		color:#fff;
 	}
 }
