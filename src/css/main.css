@@ -11,7 +11,7 @@
     @include shift($ratios: 0, $col_or_span: column);
     @include unshift;
 */
-/* line 2, sass/jeet/_reset.scss */
+/* line 2, ../sass/vendor/jeet/_reset.scss */
 article,
 aside,
 details,
@@ -26,73 +26,73 @@ section,
 summary {
   display: block; }
 
-/* line 16, sass/jeet/_reset.scss */
+/* line 16, ../sass/vendor/jeet/_reset.scss */
 audio,
 canvas,
 video {
   display: inline-block; }
 
-/* line 21, sass/jeet/_reset.scss */
+/* line 21, ../sass/vendor/jeet/_reset.scss */
 audio:not([controls]) {
   display: none;
   height: 0; }
 
-/* line 25, sass/jeet/_reset.scss */
+/* line 25, ../sass/vendor/jeet/_reset.scss */
 [hidden],
 template {
   display: none; }
 
-/* line 29, sass/jeet/_reset.scss */
+/* line 29, ../sass/vendor/jeet/_reset.scss */
 html {
   font-family: sans-serif;
   text-size-adjust: 100%; }
 
-/* line 33, sass/jeet/_reset.scss */
+/* line 33, ../sass/vendor/jeet/_reset.scss */
 body {
   margin: 0; }
 
-/* line 36, sass/jeet/_reset.scss */
+/* line 36, ../sass/vendor/jeet/_reset.scss */
 a {
   background: transparent; }
 
-/* line 39, sass/jeet/_reset.scss */
+/* line 39, ../sass/vendor/jeet/_reset.scss */
 a:focus {
   outline: thin dotted; }
 
-/* line 42, sass/jeet/_reset.scss */
+/* line 42, ../sass/vendor/jeet/_reset.scss */
 a:active,
 a:hover {
   outline: 0; }
 
-/* line 46, sass/jeet/_reset.scss */
+/* line 46, ../sass/vendor/jeet/_reset.scss */
 h1 {
   font-size: 2em;
   margin: 0.67em 0; }
 
-/* line 50, sass/jeet/_reset.scss */
+/* line 50, ../sass/vendor/jeet/_reset.scss */
 abbr[title] {
   border-bottom: 1px dotted; }
 
-/* line 53, sass/jeet/_reset.scss */
+/* line 53, ../sass/vendor/jeet/_reset.scss */
 b,
 strong {
   font-weight: bold; }
 
-/* line 57, sass/jeet/_reset.scss */
+/* line 57, ../sass/vendor/jeet/_reset.scss */
 dfn {
   font-style: italic; }
 
-/* line 60, sass/jeet/_reset.scss */
+/* line 60, ../sass/vendor/jeet/_reset.scss */
 hr {
   box-sizing: content-box;
   height: 0; }
 
-/* line 64, sass/jeet/_reset.scss */
+/* line 64, ../sass/vendor/jeet/_reset.scss */
 mark {
   background: #ff0;
   color: #000; }
 
-/* line 68, sass/jeet/_reset.scss */
+/* line 68, ../sass/vendor/jeet/_reset.scss */
 code,
 kbd,
 pre,
@@ -100,19 +100,19 @@ samp {
   font-family: monospace, serif;
   font-size: 1em; }
 
-/* line 75, sass/jeet/_reset.scss */
+/* line 75, ../sass/vendor/jeet/_reset.scss */
 pre {
   white-space: pre-wrap; }
 
-/* line 78, sass/jeet/_reset.scss */
+/* line 78, ../sass/vendor/jeet/_reset.scss */
 q {
   quotes: "\201C" "\201D" "\2018" "\2019"; }
 
-/* line 81, sass/jeet/_reset.scss */
+/* line 81, ../sass/vendor/jeet/_reset.scss */
 small {
   font-size: 80%; }
 
-/* line 84, sass/jeet/_reset.scss */
+/* line 84, ../sass/vendor/jeet/_reset.scss */
 sub,
 sup {
   font-size: 75%;
@@ -120,38 +120,38 @@ sup {
   position: relative;
   vertical-align: baseline; }
 
-/* line 91, sass/jeet/_reset.scss */
+/* line 91, ../sass/vendor/jeet/_reset.scss */
 sup {
   top: -0.5em; }
 
-/* line 94, sass/jeet/_reset.scss */
+/* line 94, ../sass/vendor/jeet/_reset.scss */
 sub {
   bottom: -0.25em; }
 
-/* line 97, sass/jeet/_reset.scss */
+/* line 97, ../sass/vendor/jeet/_reset.scss */
 img {
   border: 0; }
 
-/* line 100, sass/jeet/_reset.scss */
+/* line 100, ../sass/vendor/jeet/_reset.scss */
 svg:not(:root) {
   overflow: hidden; }
 
-/* line 103, sass/jeet/_reset.scss */
+/* line 103, ../sass/vendor/jeet/_reset.scss */
 figure {
   margin: 0; }
 
-/* line 106, sass/jeet/_reset.scss */
+/* line 106, ../sass/vendor/jeet/_reset.scss */
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em; }
 
-/* line 111, sass/jeet/_reset.scss */
+/* line 111, ../sass/vendor/jeet/_reset.scss */
 legend {
   border: 0;
   padding: 0; }
 
-/* line 115, sass/jeet/_reset.scss */
+/* line 115, ../sass/vendor/jeet/_reset.scss */
 button,
 input,
 select,
@@ -160,17 +160,17 @@ textarea {
   font-size: 100%;
   margin: 0; }
 
-/* line 123, sass/jeet/_reset.scss */
+/* line 123, ../sass/vendor/jeet/_reset.scss */
 button,
 input {
   line-height: normal; }
 
-/* line 127, sass/jeet/_reset.scss */
+/* line 127, ../sass/vendor/jeet/_reset.scss */
 button,
 select {
   text-transform: none; }
 
-/* line 131, sass/jeet/_reset.scss */
+/* line 131, ../sass/vendor/jeet/_reset.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -178,89 +178,89 @@ input[type="submit"] {
   -webkit-appearance: button;
   cursor: pointer; }
 
-/* line 138, sass/jeet/_reset.scss */
+/* line 138, ../sass/vendor/jeet/_reset.scss */
 button[disabled],
 html input[disabled] {
   cursor: default; }
 
-/* line 142, sass/jeet/_reset.scss */
+/* line 142, ../sass/vendor/jeet/_reset.scss */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
   padding: 0; }
 
-/* line 147, sass/jeet/_reset.scss */
+/* line 147, ../sass/vendor/jeet/_reset.scss */
 input[type="search"] {
   -webkit-appearance: textfield;
   box-sizing: content-box; }
 
-/* line 151, sass/jeet/_reset.scss */
+/* line 151, ../sass/vendor/jeet/_reset.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; }
 
-/* line 155, sass/jeet/_reset.scss */
+/* line 155, ../sass/vendor/jeet/_reset.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
   padding: 0; }
 
-/* line 160, sass/jeet/_reset.scss */
+/* line 160, ../sass/vendor/jeet/_reset.scss */
 textarea {
   overflow: auto;
   vertical-align: top; }
 
-/* line 164, sass/jeet/_reset.scss */
+/* line 164, ../sass/vendor/jeet/_reset.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/* line 172, sass/jeet/_reset.scss */
+/* line 172, ../sass/vendor/jeet/_reset.scss */
 *, *:before, *:after, *::before, *::after {
   *behavior: url(js/vendor/boxsizing.htc);
   box-sizing: border-box;
   margin: 0;
   padding: 0; }
 
-/* line 178, sass/jeet/_reset.scss */
+/* line 178, ../sass/vendor/jeet/_reset.scss */
 html {
   overflow-y: scroll;
   overflow-x: hidden; }
 
-/* line 182, sass/jeet/_reset.scss */
+/* line 182, ../sass/vendor/jeet/_reset.scss */
 body {
   *zoom: 1;
   width: 100%; }
-  /* line 89, sass/jeet/_utilities.scss */
+  /* line 89, ../sass/vendor/jeet/_utilities.scss */
   body:before, body:after {
     content: '';
     display: table; }
-  /* line 93, sass/jeet/_utilities.scss */
+  /* line 93, ../sass/vendor/jeet/_utilities.scss */
   body:after {
     clear: both; }
 
-/* line 186, sass/jeet/_reset.scss */
+/* line 186, ../sass/vendor/jeet/_reset.scss */
 img, video, audio, embed, object, input, iframe {
   max-width: 100%; }
 
-/* line 189, sass/jeet/_reset.scss */
+/* line 189, ../sass/vendor/jeet/_reset.scss */
 .cf {
   *zoom: 1; }
-  /* line 89, sass/jeet/_utilities.scss */
+  /* line 89, ../sass/vendor/jeet/_utilities.scss */
   .cf:before, .cf:after {
     content: '';
     display: table; }
-  /* line 93, sass/jeet/_utilities.scss */
+  /* line 93, ../sass/vendor/jeet/_utilities.scss */
   .cf:after {
     clear: both; }
 
-/* line 192, sass/jeet/_reset.scss */
+/* line 192, ../sass/vendor/jeet/_reset.scss */
 .browsehappy {
   width: 100%;
   padding: 15px 0;
   background: #fff;
   border-bottom: 1px solid #ddd; }
-  /* line 197, sass/jeet/_reset.scss */
+  /* line 197, ../sass/vendor/jeet/_reset.scss */
   .browsehappy p {
     *zoom: 1;
     width: auto;
@@ -272,121 +272,121 @@ img, video, audio, embed, object, input, iframe {
     padding-left: 0;
     padding-right: 0;
     text-align: center; }
-    /* line 89, sass/jeet/_utilities.scss */
+    /* line 89, ../sass/vendor/jeet/_utilities.scss */
     .browsehappy p:before, .browsehappy p:after {
       content: '';
       display: table; }
-    /* line 93, sass/jeet/_utilities.scss */
+    /* line 93, ../sass/vendor/jeet/_utilities.scss */
     .browsehappy p:after {
       clear: both; }
-    /* line 200, sass/jeet/_reset.scss */
+    /* line 200, ../sass/vendor/jeet/_reset.scss */
     .browsehappy p:last-of-type {
       margin-bottom: 0; }
-  /* line 204, sass/jeet/_reset.scss */
+  /* line 204, ../sass/vendor/jeet/_reset.scss */
   .browsehappy a {
     color: blue; }
 
-/* line 15, sass/jeet/_typography.scss */
+/* line 15, ../sass/vendor/jeet/_typography.scss */
 html {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 200;
   color: #444444;
-  font-size: 10.67px;
-  line-height: 16.005px; }
+  font-size: 13.33px;
+  line-height: 19.995px; }
 
-/* line 22, sass/jeet/_typography.scss */
+/* line 22, ../sass/vendor/jeet/_typography.scss */
 a {
   color: #00a6fc; }
-  /* line 24, sass/jeet/_typography.scss */
+  /* line 24, ../sass/vendor/jeet/_typography.scss */
   a:hover {
     color: #0084c9; }
 
-/* line 28, sass/jeet/_typography.scss */
+/* line 28, ../sass/vendor/jeet/_typography.scss */
 h1, h2, h3, h4, h5, h6, p, ul, ol, dt, pre, code {
   margin-top: 0; }
 
-/* line 31, sass/jeet/_typography.scss */
+/* line 31, ../sass/vendor/jeet/_typography.scss */
 h1, h2, h3, h4, h5, h6, dt {
-  font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
   font-weight: 200;
   color: #111111;
   letter-spacing: -.025em; }
 
-/* line 60, sass/jeet/_typography.scss */
+/* line 60, ../sass/vendor/jeet/_typography.scss */
 h1 {
-  font-size: 29.876px;
-  line-height: 32.01px;
-  margin-bottom: 10.67px; }
+  font-size: 37.324px;
+  line-height: 39.99px;
+  margin-bottom: 13.33px; }
 
-/* line 65, sass/jeet/_typography.scss */
+/* line 65, ../sass/vendor/jeet/_typography.scss */
 h2 {
-  font-size: 26.675px;
-  line-height: 29.876px;
-  margin-bottom: 8.536px; }
+  font-size: 33.325px;
+  line-height: 37.324px;
+  margin-bottom: 10.664px; }
 
-/* line 70, sass/jeet/_typography.scss */
+/* line 70, ../sass/vendor/jeet/_typography.scss */
 h3 {
-  font-size: 23.474px;
-  line-height: 27.742px;
-  margin-bottom: 6.402px; }
+  font-size: 29.326px;
+  line-height: 34.658px;
+  margin-bottom: 7.998px; }
 
-/* line 75, sass/jeet/_typography.scss */
+/* line 75, ../sass/vendor/jeet/_typography.scss */
 h4 {
-  font-size: 21.34px;
-  line-height: 25.608px;
-  margin-bottom: 4.268px; }
+  font-size: 26.66px;
+  line-height: 31.992px;
+  margin-bottom: 5.332px; }
 
-/* line 80, sass/jeet/_typography.scss */
+/* line 80, ../sass/vendor/jeet/_typography.scss */
 h5 {
-  font-size: 17.072px;
-  line-height: 23.474px;
-  margin-bottom: 2.134px; }
+  font-size: 21.328px;
+  line-height: 29.326px;
+  margin-bottom: 2.666px; }
 
-/* line 85, sass/jeet/_typography.scss */
+/* line 85, ../sass/vendor/jeet/_typography.scss */
 h6 {
-  font-size: 13.871px;
-  line-height: 21.34px;
+  font-size: 17.329px;
+  line-height: 26.66px;
   margin-bottom: 0px; }
 
-/* line 90, sass/jeet/_typography.scss */
+/* line 90, ../sass/vendor/jeet/_typography.scss */
 p, ul, ol, pre, dl {
-  margin-bottom: 10.67px; }
+  margin-bottom: 13.33px; }
 
-/* line 93, sass/jeet/_typography.scss */
+/* line 93, ../sass/vendor/jeet/_typography.scss */
 ul, ol {
   padding-left: 1.4em; }
 
-/* line 96, sass/jeet/_typography.scss */
+/* line 96, ../sass/vendor/jeet/_typography.scss */
 li, dd {
-  margin-bottom: 5.335px; }
+  margin-bottom: 6.665px; }
 
-/* line 99, sass/jeet/_typography.scss */
+/* line 99, ../sass/vendor/jeet/_typography.scss */
 pre {
-  font-size: 8.536px; }
+  font-size: 10.664px; }
 
-/* line 103, sass/jeet/_typography.scss */
+/* line 103, ../sass/vendor/jeet/_typography.scss */
 header p {
   color: #aaaaaa; }
-/* line 104, sass/jeet/_typography.scss */
+/* line 104, ../sass/vendor/jeet/_typography.scss */
 header h1 ~ p {
-  margin-top: -5.335px; }
-/* line 105, sass/jeet/_typography.scss */
+  margin-top: -6.665px; }
+/* line 105, ../sass/vendor/jeet/_typography.scss */
 header h2 ~ p {
-  margin-top: -4.268px; }
-/* line 106, sass/jeet/_typography.scss */
+  margin-top: -5.332px; }
+/* line 106, ../sass/vendor/jeet/_typography.scss */
 header h3 ~ p {
-  margin-top: -3.201px; }
-/* line 107, sass/jeet/_typography.scss */
+  margin-top: -3.999px; }
+/* line 107, ../sass/vendor/jeet/_typography.scss */
 header h4 ~ p {
-  margin-top: -2.134px; }
-/* line 108, sass/jeet/_typography.scss */
+  margin-top: -2.666px; }
+/* line 108, ../sass/vendor/jeet/_typography.scss */
 header h5 ~ p {
-  margin-top: -1.067px; }
-/* line 109, sass/jeet/_typography.scss */
+  margin-top: -1.333px; }
+/* line 109, ../sass/vendor/jeet/_typography.scss */
 header h6 ~ p {
-  margin-top: -1.067px; }
+  margin-top: -1.333px; }
 
-/* line 111, sass/jeet/_typography.scss */
+/* line 111, ../sass/vendor/jeet/_typography.scss */
 code {
   padding: 3px 4px;
   color: #444444;
@@ -395,7 +395,7 @@ code {
   border-radius: 3px;
   font-family: Menlo, Monaco, monospace; }
 
-/* line 119, sass/jeet/_typography.scss */
+/* line 119, ../sass/vendor/jeet/_typography.scss */
 pre {
   display: block;
   padding: 7px;
@@ -407,80 +407,80 @@ pre {
   font-family: Menlo, Monaco, monospace;
   line-height: 160%; }
 
-/* line 131, sass/jeet/_typography.scss */
+/* line 131, ../sass/vendor/jeet/_typography.scss */
 .browsehappy span {
-  font-size: 8.536px; }
+  font-size: 10.664px; }
 
 @media (min-width: 705px) {
-  /* line 138, sass/jeet/_typography.scss */
+  /* line 138, ../sass/vendor/jeet/_typography.scss */
   html {
     font-size: 18.75px;
     line-height: 28.125px; }
 
-  /* line 142, sass/jeet/_typography.scss */
+  /* line 142, ../sass/vendor/jeet/_typography.scss */
   h1 {
     font-size: 52.5px;
     line-height: 56.25px;
     margin-bottom: 18.75px; }
 
-  /* line 147, sass/jeet/_typography.scss */
+  /* line 147, ../sass/vendor/jeet/_typography.scss */
   h2 {
     font-size: 46.875px;
     line-height: 52.5px;
     margin-bottom: 15px; }
 
-  /* line 152, sass/jeet/_typography.scss */
+  /* line 152, ../sass/vendor/jeet/_typography.scss */
   h3 {
     font-size: 41.25px;
     line-height: 48.75px;
     margin-bottom: 11.25px; }
 
-  /* line 157, sass/jeet/_typography.scss */
+  /* line 157, ../sass/vendor/jeet/_typography.scss */
   h4 {
     font-size: 35.625px;
     line-height: 45px;
     margin-bottom: 7.5px; }
 
-  /* line 162, sass/jeet/_typography.scss */
+  /* line 162, ../sass/vendor/jeet/_typography.scss */
   h5 {
     font-size: 30px;
     line-height: 41.25px;
     margin-bottom: 3.75px; }
 
-  /* line 167, sass/jeet/_typography.scss */
+  /* line 167, ../sass/vendor/jeet/_typography.scss */
   h6 {
     font-size: 24.375px;
     line-height: 37.5px;
     margin-bottom: 0px; }
 
-  /* line 172, sass/jeet/_typography.scss */
+  /* line 172, ../sass/vendor/jeet/_typography.scss */
   p, ul, ol, pre, dl {
     margin-bottom: 18.75px; }
 
-  /* line 175, sass/jeet/_typography.scss */
+  /* line 175, ../sass/vendor/jeet/_typography.scss */
   li, dd {
     margin-bottom: 9.375px; }
 
-  /* line 178, sass/jeet/_typography.scss */
+  /* line 178, ../sass/vendor/jeet/_typography.scss */
   pre {
     font-size: 15px; }
 
-  /* line 182, sass/jeet/_typography.scss */
+  /* line 182, ../sass/vendor/jeet/_typography.scss */
   header h1 ~ p {
     margin-top: -9.375px; }
-  /* line 183, sass/jeet/_typography.scss */
+  /* line 183, ../sass/vendor/jeet/_typography.scss */
   header h2 ~ p {
     margin-top: -7.5px; }
-  /* line 184, sass/jeet/_typography.scss */
+  /* line 184, ../sass/vendor/jeet/_typography.scss */
   header h3 ~ p {
     margin-top: -5.625px; }
-  /* line 185, sass/jeet/_typography.scss */
+  /* line 185, ../sass/vendor/jeet/_typography.scss */
   header h4 ~ p {
     margin-top: -3.75px; }
-  /* line 186, sass/jeet/_typography.scss */
+  /* line 186, ../sass/vendor/jeet/_typography.scss */
   header h5 ~ p {
     margin-top: -1.875px; }
-  /* line 187, sass/jeet/_typography.scss */
+  /* line 187, ../sass/vendor/jeet/_typography.scss */
   header h6 ~ p {
     margin-top: -1.875px; } }
 /**
@@ -489,215 +489,24 @@ pre {
 /**
 *Base Styles
 **/
-/* line 15, sass/_base.scss */
+/* line 12, ../sass/_base.scss */
 body {
   font-size: .9em;
   color: #444444; }
 
-/* line 19, sass/_base.scss */
-h1, h2, h3, h4, h5, h6, p, li {
-  margin: 0;
-  padding: 0; }
-
-/* line 24, sass/_base.scss */
-.wrapper {
-  width: 100%; }
-
-/* line 27, sass/_base.scss */
-.clear {
-  clear: both; }
-
-/* line 30, sass/_base.scss */
-.inner-wrapper {
-  width: 85%;
-  margin: 0 auto; }
-
-/* line 35, sass/_base.scss */
-a:hover {
-  text-decoration: none; }
-
 /**
 *imports
 **/
-/* line 2, sass/partials/_lib.scss */
-.inner-wrapper:after, .top-header:after, .product-section .inner-wrapper:after, .product-section .product-list:after, .super-banner:after, .main-footer .footer-nav:after {
-  clear: both;
-  display: block;
-  content: " ";
-  height: 0px;
-  visibility: hidden; }
+/* line 1, ../sass/core/_helpers.scss */
+.clear {
+  clear: both; }
 
-/* line 11, sass/partials/_lib.scss */
-.emphasize {
+/* line 1, ../sass/core/_typography.scss */
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0; }
+
+/* line 6, ../sass/core/_typography.scss */
+a:hover {
+  text-decoration: none;
   color: #4ab75c; }
-
-/* line 14, sass/partials/_lib.scss */
-.tel {
-  color: #eeeeee; }
-  /* line 16, sass/partials/_lib.scss */
-  .tel:hover {
-    color: #aaaaaa; }
-
-/* line 20, sass/partials/_lib.scss */
-.separator {
-  margin: 0 2px; }
-
-/* line 1, sass/partials/_header.scss */
-.top-header {
-  background-color: #222222;
-  padding: 15px;
-  font-size: .8em; }
-  /* line 7, sass/partials/_header.scss */
-  .top-header .logo {
-    float: left; }
-  /* line 10, sass/partials/_header.scss */
-  .top-header > * {
-    float: right; }
-  /* line 13, sass/partials/_header.scss */
-  .top-header .main-nav {
-    margin-right: 30px; }
-    /* line 16, sass/partials/_header.scss */
-    .top-header .main-nav a {
-      margin-right: 15px;
-      color: #eeeeee; }
-      /* line 19, sass/partials/_header.scss */
-      .top-header .main-nav a:hover {
-        color: #aaaaaa; }
-
-/* line 1, sass/partials/_product-section.scss */
-.product-section {
-  margin-top: 20px; }
-  /* line 6, sass/partials/_product-section.scss */
-  .product-section .product-nav {
-    border-bottom: 1px solid #eee;
-    padding-bottom: 5px;
-    margin-bottom: 20px; }
-    /* line 10, sass/partials/_product-section.scss */
-    .product-section .product-nav .active {
-      color: #000;
-      border-bottom: 1px solid #b7e3bf;
-      padding-bottom: 3px; }
-    /* line 16, sass/partials/_product-section.scss */
-    .product-section .product-nav a {
-      font-size: 1.5em;
-      color: #444444; }
-      /* line 20, sass/partials/_product-section.scss */
-      .product-section .product-nav a:hover {
-        text-decoration: none;
-        color: #888888; }
-  /* line 26, sass/partials/_product-section.scss */
-  .product-section .breadcrumb {
-    padding: 5px 8px;
-    font-size: .8em;
-    float: left;
-    background-color: transparent; }
-    /* line 31, sass/partials/_product-section.scss */
-    .product-section .breadcrumb a {
-      color: #aaa; }
-  /* line 35, sass/partials/_product-section.scss */
-  .product-section .search {
-    margin-right: 9%;
-    float: right; }
-    /* line 38, sass/partials/_product-section.scss */
-    .product-section .search input {
-      width: 150px;
-      border-radius: 0;
-      height: 25px; }
-  /* line 44, sass/partials/_product-section.scss */
-  .product-section .product-list {
-    position: relative;
-    height: 100%;
-    display: table;
-    border-collapse: collapse;
-    padding: 10px; }
-    /* line 51, sass/partials/_product-section.scss */
-    .product-section .product-list .product {
-      *zoom: 1;
-      float: left;
-      display: inline;
-      clear: none;
-      text-align: inherit;
-      padding-left: 0;
-      padding-right: 0;
-      width: 20.5%;
-      margin-left: 0%;
-      margin-right: 6%;
-      margin-bottom: 20px;
-      text-align: center; }
-      /* line 89, sass/jeet/_utilities.scss */
-      .product-section .product-list .product:before, .product-section .product-list .product:after {
-        content: '';
-        display: table; }
-      /* line 93, sass/jeet/_utilities.scss */
-      .product-section .product-list .product:after {
-        clear: both; }
-      /* line 36, sass/jeet/_grid.scss */
-      .product-section .product-list .product:nth-child(4n) {
-        margin-right: 0%;
-        float: right; }
-      /* line 55, sass/partials/_product-section.scss */
-      .product-section .product-list .product .info {
-        font-size: .9em;
-        border-top: 1px solid #ddd;
-        margin-top: 15px;
-        text-align: left;
-        color: #222; }
-        /* line 61, sass/partials/_product-section.scss */
-        .product-section .product-list .product .info .type {
-          font-size: .8em;
-          color: #999; }
-    /* line 67, sass/partials/_product-section.scss */
-    .product-section .product-list .pagination {
-      display: table-row;
-      vertical-align: bottom; }
-
-/* line 1, sass/partials/_banner.scss */
-.super-banner {
-  position: relative;
-  text-align: right;
-  padding-top: 17%;
-  padding-bottom: 7%;
-  margin-bottom: 10px; }
-  /* line 12, sass/partials/_banner.scss */
-  .super-banner .pitch {
-    font-size: 2em; }
-  /* line 15, sass/partials/_banner.scss */
-  .super-banner .btn-brand {
-    background-color: #4ab75c;
-    color: #fff; }
-  /* line 19, sass/partials/_banner.scss */
-  .super-banner .btn-brand-secondary {
-    background-color: #51b6e7;
-    color: #fff; }
-
-/* line 1, sass/partials/_footer.scss */
-.main-footer {
-  width: 100%;
-  background-color: #222222;
-  margin-top: 30px;
-  padding: 20px;
-  font-size: .8em; }
-  /* line 8, sass/partials/_footer.scss */
-  .main-footer .footer-nav {
-    float: left;
-    margin-left: 40px; }
-    /* line 13, sass/partials/_footer.scss */
-    .main-footer .footer-nav a {
-      display: block;
-      color: #aaaaaa; }
-      /* line 16, sass/partials/_footer.scss */
-      .main-footer .footer-nav a:hover {
-        color: white; }
-    /* line 21, sass/partials/_footer.scss */
-    .main-footer .footer-nav .header {
-      margin-bottom: 20px;
-      color: #eeeeee; }
-    /* line 26, sass/partials/_footer.scss */
-    .main-footer .footer-nav:first-child {
-      margin-left: 0; }
-  /* line 31, sass/partials/_footer.scss */
-  .main-footer .copywrite {
-    text-align: center;
-    margin-top: 5px;
-    color: #aaaaaa;
-    font-size: .75em; }

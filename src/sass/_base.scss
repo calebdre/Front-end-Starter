@@ -5,6 +5,7 @@
 $base-color: #444;
 $base-hover:#888;
 $brand-color:#4AB75C;
+
 /**
 *Base Styles
 **/
@@ -12,28 +13,10 @@ body{
 	font-size:.9em;
 	color:$base-color;
 }
-#{ headings() }, p, li{
-	margin:0;
-	padding:0;
-}
 
-.wrapper{
-	width: 100%;
-}
-.clear{
-	clear:both;
-}
-.inner-wrapper{
-	width:85%;
-	margin:0 auto;
-	@extend %clear;
-}
-a:hover{
-	text-decoration: none;
-	color:$brand-color;
-}
+
 /**
 *imports
 **/
-@import "modules/all";
-@import "partials/all";
+@import "core/all";
+@import "components/all";

@@ -8,7 +8,7 @@ module.exports = function(grunt) {
 				options:{
 					cssDir: "<%= develop %>css",
 					sassDir: "<%= develop %>sass",
-					config:"<%= develop %>css/config.rb"
+					config:"<%= develop %>sass/config.rb"
 				}
 			}
 		},
