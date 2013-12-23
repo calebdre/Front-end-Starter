@@ -7,14 +7,14 @@ module.exports = function(grunt) {
 			dist:{
 				options:{
 					cssDir: "<%= develop %>css",
-					sassDir: "<%= develop %>css/sass",
+					sassDir: "<%= develop %>sass",
 					config:"<%= develop %>css/config.rb"
 				}
 			}
 		},
 		watch:{
 			compass:{
-					files:["<%= develop %>css/sass/**/*"],
+					files:["<%= develop %>sass/**/*"],
 					tasks: ['compass']
 			}
 		},

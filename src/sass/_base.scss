@@ -1,14 +1,10 @@
-@import "jeet/index";
+@import "vendor/jeet/index";
 /**
 * declare your variables here. feel free to make a new file
 **/
 $base-color: #444;
 $base-hover:#888;
 $brand-color:#4AB75C;
-$brand-secondary-color: #51B6E7;
-$secondary-bg-color:#222;
-$secondary-bg-text:#aaa;
-$secondary-bg-text-hover:#eee;
 /**
 *Base Styles
 **/
@@ -34,6 +30,7 @@ body{
 }
 a:hover{
 	text-decoration: none;
+	color:$brand-color;
 }
 /**
 *imports
