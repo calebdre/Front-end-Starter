@@ -37,71 +37,31 @@ module.exports = function(grunt) {
 				dest:'<%= develop %>img'
 			}
 		},
-		cssmin: {
-			build: {
-				expand: true,
-				dest:"<%=production%>css/",
-				src: '<%= develop %>css/*.css',
-				ext: '.min.css'
-			}
-		},
-		uglify: {
-			build: {
-				files: [{
-					expand:true,
-					src:['<%= develop %>js/*.js', '<%= develop %>js/vendor/*.js'],
-					dest:'<%= production %>js/',
-					ext:'.min.js'
-				}]
-			}
-		},
-		concat: {
-			options: {
-				separator: ';',
-			},
-			js: {
-				src: ['<%= production %>js/vendor/*.js', '<%= production %>js/*.js'],
-				dest: '<%= production %>js/all.min.js',
-			},
-			css:{
-				src:'<%= production %>css/*.css',
-				dest:'<%= production %>css/all.min.css'
-			}
-		},
 		copy:{
 			build:{
 				files:[
 					{
 						expand:true,
 						cwd:"src",
-						src:['fonts/*','*'],
+						src:['fonts/*','*', '!sass','!vendor'],
 						dest:'production/'
 					}
 				]
 			}
 		},
-		usemin:{
-			html:"<%= production %>*.html",
-			css:"<%= production %>css/all.min.css"
-		},
-		 useminPrepare: {
-		            options: {
-		                dest: '<%= production %>'
-		            },
-		            html: '<%= develop %>*.html'
-		        }
+		useref:{
+			html:'<%= production %>*.html',
+			temp:'<%= production %>'
+		}
 	});
 	grunt.loadNpmTasks('grunt-contrib-watch');
 	grunt.loadNpmTasks('grunt-contrib-compass');
 	grunt.loadNpmTasks('grunt-style-injector');
 	grunt.loadNpmTasks('grunt-smushit');
-	grunt.loadNpmTasks('grunt-contrib-concat');
-	grunt.loadNpmTasks('grunt-contrib-uglify');
-	grunt.loadNpmTasks('grunt-contrib-cssmin');
+	grunt.loadNpmTasks('grunt-useref');
 	grunt.loadNpmTasks('grunt-contrib-copy');
-	grunt.loadNpmTasks('grunt-usemin');
 
 	grunt.registerTask('default', ['styleinjector','watch']);
-	grunt.registerTask('build', ['copy','smushit','cssmin', 'uglify', 'concat','usemin']);
+	grunt.registerTask('build', ['copy','useref','concat', 'uglify', 'cssmin','smushit']);
 
 };
