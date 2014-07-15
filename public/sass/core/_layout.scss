@@ -1,0 +1,17 @@
+@for $i from 1 through 12{
+	.row-of-#{$i}{
+		@include cf();
+		> *{
+			@include span(1/$i);
+		}
+	}
+}
+@for $i from 1 through 12{
+	.col-of-#{$i}{
+		@include cf();
+		$gutter: 2;
+		> *{
+			@include col(1/$i, $gutter: $gutter);
+		}
+	}
+}
